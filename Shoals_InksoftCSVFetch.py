@@ -114,7 +114,7 @@ def main():
         export_csv(wait)
 
         current_year = datetime.now().year
-        new_filename = f"InkSoft_OrdersReport_{current_year}.csv"
+        new_filename = f"Inksoft_OrdersReport_{current_year}.csv"
         target_path = os.path.join(TARGET_DIR, new_filename)
 
         downloaded_file = wait_for_latest_download()
